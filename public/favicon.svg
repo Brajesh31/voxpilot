@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="8" fill="#0f172a"/>
+  <!-- Soundwave / Pilot Radar Wings -->
+  <path d="M7 16h2m2-5v10m3-7v4m3-9v14m3-11v8m3-6v4m3-2h2" stroke="#3b82f6" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="16" cy="16" r="1.5" fill="#60a5fa"/>
+</svg>

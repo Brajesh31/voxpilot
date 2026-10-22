@@ -1,0 +1,65 @@
+/* VoxPilot Theme System & Custom Properties */
+
+:root {
+  /* Default brand palette */
+  --primary: #2563eb;
+  --primary-rgb: 37, 99, 235;
+  --secondary: #64748b;
+  --accent: #f59e0b;
+  
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-size: 14px;
+  --font-weight: 400;
+  
+  /* Geometry */
+  --border-radius: 8px;
+}
+
+/* Base typography applied cleanly to document root without destroying Tailwind utilities */
+html,
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+}
+
+/* Form controls inherit document font */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+
+/* Border radius variable mapping */
+.rounded {
+  border-radius: var(--border-radius);
+}
+
+.rounded-md {
+  border-radius: calc(var(--border-radius) - 2px);
+}
+
+.rounded-lg {
+  border-radius: var(--border-radius);
+}
+
+.rounded-xl {
+  border-radius: calc(var(--border-radius) + 4px);
+}
+
+/* Custom theme overrides for active dynamic palette */
+[data-theme="custom"] {
+  --primary: var(--primary);
+  --secondary: var(--secondary);
+  --accent: var(--accent);
+  --font-family: var(--font-family);
+  --font-size: var(--font-size);
+  --border-radius: var(--border-radius);
+}
+
+/* Dark mode theme variables */
+.dark {
+  color-scheme: dark;
+}
