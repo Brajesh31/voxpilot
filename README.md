@@ -266,4 +266,4 @@ npm run preview
 
 ## 9. License
 
-Proprietary — All rights reserved.
+MIT License &copy; 2026 Brajesh Kumar. See [LICENSE](LICENSE) for details.

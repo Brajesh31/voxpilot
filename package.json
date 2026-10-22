@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "description": "VoxPilot — A professional workspace for building, configuring, testing, and managing AI voice agents",
+  "author": "Brajesh Kumar",
   "type": "module",
   "scripts": {
     "dev": "vite",
